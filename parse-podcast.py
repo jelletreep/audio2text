@@ -63,7 +63,8 @@ cmd = [
     "--output", f"output/{item_id}/text",
     "--verbose",
     "--log-file", f"output/{item_id}/log.log",
-    "--output-directory", f"output/{item_id}"
+    "--output-directory", f"output/{item_id}",
+    "--whisper-args", "--no_align"
 ]
 
 command = " ".join(cmd)
