@@ -48,6 +48,7 @@ parser.add_argument("-od", "--output-directory",
 
 OF_FORMATS = WHISPER_OUTPUT_FORMATS.copy().append("all")
 parser.add_argument("-of", "--output-format",
+    nargs='*',     
     choices = OF_FORMATS,
     default = "srt",
     help = "Output format, when giving 'all', all formats will be used"
