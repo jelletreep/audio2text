@@ -59,7 +59,7 @@ cmd = [
     "--engine", "whisperx",
     "--language", "nl",
     "--url", url,
-    "--output-format", "srt,txt,csv",
+    "--output-format", "srt txt csv",
     "--output", f"output/{item_id}/text",
     "--verbose",
     "--log-file", f"output/{item_id}/log.log",
